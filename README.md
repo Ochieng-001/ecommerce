@@ -68,7 +68,7 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
    cd backend
    npm install
 
-4. Set up the frontend
+3. Set up the frontend
    ```
    cd ../frontend
    npm install
@@ -78,6 +78,7 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
   - MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
   - PORT=5000
   - JWT_SECRET=your_jwt_secret
+
 
 5. Start the backend server:
    ```
@@ -114,7 +115,7 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
 -└── ...
 
 ---
-```
+
 # API Documentation
 
   ## **Endpoints**

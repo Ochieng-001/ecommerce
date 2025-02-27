@@ -80,7 +80,7 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
   - JWT_SECRET=your_jwt_secret
 
 5. Start the backend server:
-  ```
+   ```
     cd ../backend
     node server.js
 
@@ -114,7 +114,7 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
 -└── ...
 
 ---
-
+```
 # API Documentation
 
   ## **Endpoints**
@@ -143,10 +143,10 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
 -PUT /api/repairs/:id - Update repair status (admin only).
 
 ---
-
+```
 # Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
-```
+
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/YourFeatureName).
 3. Commit your changes (git commit -m 'Add some feature').

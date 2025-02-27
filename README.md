@@ -63,7 +63,7 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
    git clone https://github.com/Ochieng-001/ecommerce.git
    cd ecommerce
 
-2. Set up the backend:
+2. **Set up the backend:**
    cd backend
    npm install
 
@@ -86,9 +86,11 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
 
 7. Open your browser and navigate to http://localhost:3000 to view the website:
 
+
+```
 ---
 
-# Project Structure
+### Project Structure
    
 -ecommerce-website/
 -├── frontend/              # React.js frontend

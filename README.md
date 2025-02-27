@@ -64,23 +64,28 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
    cd ecommerce
 
 2. **Set up the backend:**
+   ```
    cd backend
    npm install
 
-3. Set up the frontend
+4. Set up the frontend
+   ```
    cd ../frontend
    npm install
 
 4.- Create a .env file in the backend folder and add the following:
+   ```
   - MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
-  -PORT=5000
+  - PORT=5000
   - JWT_SECRET=your_jwt_secret
 
 5. Start the backend server:
+  ```
     cd ../backend
     node server.js
 
 6. Start up the developer server:
+   ```
    cd ../frontend
    npm start
 
@@ -141,7 +146,7 @@ Welcome to the **Ecommerce Website** project! This is a full-stack eCommerce pla
 
 # Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
-
+```
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/YourFeatureName).
 3. Commit your changes (git commit -m 'Add some feature').
